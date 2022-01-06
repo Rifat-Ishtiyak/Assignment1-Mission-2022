@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0px 110px;
+}
+
+.flex{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.half-width{
+    width: 50%;
+}
+
+.half-width img{
+    margin-left: 100px;
+    width: 75%;
+}
+
+.top-header .top-paragraph{
+    margin-top: 170px;
+}
+
+.top-header .top-paragraph .header-title{
+    /* height: 170px; */
+    border-left: 5px solid red;
+    /* border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1; */
+}
+.top-header .top-paragraph .header-title h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 90px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.light-yellow{
+    color: #FFAD5A;
+}
+
+p{
+    width: 80%;
+    margin: 30px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+    color: #3E3E3E;;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #FF5959;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #434343;
+    margin: 70px 0px;
+}
+
+.section-header{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700px;
+    color: #13103A;
+    margin: 40px 0px;
+}
+
+.my-mission .cards{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 120px;
+}
+.card{
+    width: 370px;
+    height: 370px;
+    border-radius: 25px;
+    background-color: lightblue;
+    padding: 20px 22px;
+}
+
+.card img{
+    width: 50%;
+    height: 50%;
+}
+
+.card-text{
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.card .card-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#bg-light-blue{
+    background-color: #EDF5F6;
+}
+
+#bg-light-pink{
+    background-color: #FFEEEE;
+}
+
+#bg-light-soil{
+    background-color: #FFF4D6
+}
+
+.more-intro .contents .custom-width-img{
+    width: 40%;   
+}
+
+.more-intro .contents .custom-width-img img{
+    width: 100%;
+}
+
+.custom-width-paragraph .intro-title{
+    margin: 0;
+    font-size: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.custom-width-paragraph{
+    width: 60%;
+    margin-top: 80px;
+}
+.custom-width-paragraph p{
+    width: 100%;  
+}
+
+#right-margin{
+    margin-right: 80px;
+}
+
+.intro-bg1{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 20px;
+    background-position-y: 100px;
+}
+
+.intro-bg2{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: right;
+    background-position-y: 370px;
+    height: 600px;
+
+}
+
+.more-intro .container .contents{
+    margin-bottom: 120px;
+}
+
+
+.extra-height{
+    height: 500px;
+}
+
+.contact .contact-form{
+    text-align: center;
+}
+
+.contact .contact-form .input-style{
+    width: 230px;
+    height: 50px;
+    padding: 10px 30px;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+.contact .contact-form textarea{
+    width: 550px;
+    height: 250px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 30px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 20px lightgray;
+    border: none;
+    outline: none;
+}
+.contact .contact-form button{
+    text-align: right;
+}
+
+.contact .contact-info .contact-box{
+    margin-top: 60px;
+    width: 450px;
+    padding: 40px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px lightgray;
+    border-left: 6px solid #3E3E3E;
+}
+
+.contact .contact-info .contact-box .writing h2{
+    color: #3E3E3E;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
