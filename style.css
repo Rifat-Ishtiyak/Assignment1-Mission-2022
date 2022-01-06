@@ -170,9 +170,8 @@ h4{
     margin-bottom: 120px;
 }
 
-
-.extra-height{
-    height: 500px;
+.contact-section{
+    margin-bottom: 150px;
 }
 
 .contact .contact-form{
@@ -223,4 +222,23 @@ h4{
     font-weight: 600;
 }
 
+.footer-section footer{
+    width: 100%;
+    height: 50px;
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 70px 0px;
+}
 
+.footer-section footer h2{
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.footer-section footer h4{
+    margin-top: 10px;
+    color: gray;
+}
